@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/Joblister/static/js/main.42136f4f.chunk.js",
+    "main.js.map": "/Joblister/static/js/main.42136f4f.chunk.js.map",
+    "runtime-main.js": "/Joblister/static/js/runtime-main.2ef7971e.js",
+    "runtime-main.js.map": "/Joblister/static/js/runtime-main.2ef7971e.js.map",
+    "static/js/2.a7ee1178.chunk.js": "/Joblister/static/js/2.a7ee1178.chunk.js",
+    "static/js/2.a7ee1178.chunk.js.map": "/Joblister/static/js/2.a7ee1178.chunk.js.map",
+    "index.html": "/Joblister/index.html",
+    "precache-manifest.be34f804c8ce93d1e6a2ebc7a834fadf.js": "/Joblister/precache-manifest.be34f804c8ce93d1e6a2ebc7a834fadf.js",
+    "service-worker.js": "/Joblister/service-worker.js",
+    "static/js/2.a7ee1178.chunk.js.LICENSE.txt": "/Joblister/static/js/2.a7ee1178.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ef7971e.js",
+    "static/js/2.a7ee1178.chunk.js",
+    "static/js/main.42136f4f.chunk.js"
+  ]
+}
