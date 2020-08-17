@@ -8,7 +8,17 @@ import Job from '../Job';
 
 export default function Jobs() {
 	const {cjobs} = useStoreContext();
-    return <Container>
-		{cjobs && cjobs.map((item, index) => <Job key={index} job={item}></Job>)}
+    return cjobs.length > 0 && <Container>
+		<thead>
+			<tr>
+				<th>Title</th>
+				<th>Url</th>
+				<th>Tags</th>
+				<th>Date</th>
+			</tr>
+		</thead>
+		<tbody>
+			{cjobs.map((item, index) => <Job key={index} job={item}></Job>)}
+		</tbody>
     </Container>
 }

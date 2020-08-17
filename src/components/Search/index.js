@@ -41,7 +41,6 @@ export default function Search() {
 					}
 					return ok;
 				});
-				console.log("lol", data)
 			} 
 			if(orderBy) {
 				data.sort((a,b) => new Date(b.created_at) - new Date(a.created_at) );
@@ -49,8 +48,6 @@ export default function Search() {
 			else {
 				data.sort((a,b) => new Date(a.created_at) - new Date(b.created_at));
 			}
-			console.log(stags)
-			console.log("data", data)
 			setCjobs([...data]);
 		}
 	}
@@ -66,7 +63,6 @@ export default function Search() {
 		let data = stags;
 		if(data.includes(temp)) {
 			data = data.filter(x => x !== temp);
-			console.log("filtro:", data)
 		} else {
 			data.push(temp);
 		}
@@ -102,7 +98,7 @@ export default function Search() {
 				<>
 				<Info>Selected Tags</Info>
 				<Tags>
-				{stags && stags.map((item, index) => <Tag text={item} key={index}/>)}
+				{stags && stags.map((item, index) => <Tag text={item} key={index} onSelect={onSelect}/>)}
 				</Tags>
 				</>
 			}

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const URLS = [
 	'https://api.github.com/repos/frontendbr/vagas/issues',
-	'https://api.github.com/repos/backend-br/vagas/issues'
+	//'https://api.github.com/repos/backend-br/vagas/issues'
 ];
 
 const api = axios.create({});
