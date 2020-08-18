@@ -2,19 +2,25 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     width: 100%;
-    height: 70px;
-	margin-bottom: 30px;
-    background-color: #a0b7db;
-
+	height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    .logo {
-        font-size: 2rem;
+	background-color: #adb5bd;
+	
+    .copyrights {
+		font-size: 1.1rem;
 		cursor:pointer;
     }
+	a {
+        text-decoration: none;
+        color: inherit;
+    }
+
 
 	outline: 0;
 	user-select: none;
+
+  	left: 0;
+  	bottom: 0;
 `;

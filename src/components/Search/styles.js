@@ -3,6 +3,10 @@ import styled, { css } from 'styled-components'
 export const Container = styled.div`
     width: 100%;
     display: flex;
+	i {
+		cursor: pointer;
+		margin-left: 10px;
+	}
 `;
 
 export const Box = styled.div`
@@ -19,13 +23,14 @@ export const SearchBar = styled.div`
 	height: 25px;
 	display: flex;
 	align-items: center;
-	*{
-		margin-left: 10px;
-	}
+	
 `; 
 export const Input = styled.input`
     width: 100%;
     height: 100%;
+	border: solid 2px grey;
+	border-radius: 10px;
+	padding-left: 10px;
 `;
 
 export const Tags = styled.div`
