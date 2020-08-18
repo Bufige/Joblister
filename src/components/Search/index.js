@@ -22,8 +22,28 @@ export default function Search() {
 			let data = jobs;
 			
 			if(text) {
-				text = text.toLowerCase()
-				data = data.filter(item => item.title.toLowerCase().includes(text));
+				let words = text.toLowerCase().replace(/\s+/g,' ').trim().split(' ');
+				data = data.filter(item => {
+					let inTitle = false;
+					let inBody = false;
+					
+					let title = item.title.toLowerCase();
+					let body = item.body.toLowerCase();
+
+					for(let word of words) {
+						if(title.includes(word)) {
+							inTitle = true;
+							break;
+						}
+					}
+					for(let word of words) {
+						if(body.includes(word)) {
+							inBody = true;
+							break;
+						}
+					}
+					return inTitle || inBody;
+				});
 			}
 			if (tags.length > 0) {
 				data = data.filter(item => {
@@ -84,8 +104,8 @@ export default function Search() {
         <Box>
 			<SearchBar>
 				<Input value={text} onChange={ (e) => setText(e.target.value)}/>
-				<Button text="Search" onClick={onSearch}> </Button>
-				<Button text="Reset" onClick={onReset}> </Button>
+				<i class="fas fa-search fa-lg" onClick={onSearch}></i>
+				<i class="fas fa-eraser fa-lg" onClick={onReset}></i>
 			</SearchBar>
 			<Info>All available tags</Info>
 
@@ -102,6 +122,7 @@ export default function Search() {
 				</Tags>
 				</>
 			}
+			<Info>Showing {cjobs.length} of {jobs.length}</Info>
         </Box>
     </Container>
 }

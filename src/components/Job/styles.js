@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 
 export const Container = styled.tr`
-	height: 150px;
+	height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
@@ -18,5 +18,7 @@ export const Column = styled.td`
 `;
 
 export const Link = styled.a`
-    text-decoration: none;
+	text-decoration: underline;
+	color: inherit;
+	font-size: 1.2rem;
 `;

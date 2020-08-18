@@ -7,11 +7,8 @@ import {Container, Column, Link } from './styles';
 export default function Job({job}) {
     return <Container>
 		<Column>
-			<h3>{job.title}</h3>
-		</Column>
-		<Column>
 			<Link href={job.html_url} target="_blank">
-				Link
+				{job.title}
 			</Link>
 		</Column>
 		<Column labels>
