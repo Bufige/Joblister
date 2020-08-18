@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "06b8cd901a19a115f0eacb2e8fbbdf0d",
+    "revision": "95a7b3f3b18849f8ce5a0446fc7d16dc",
     "url": "/Joblister/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Joblister/static/js/2.dc1a6894.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6d401d112357fdcb397",
-    "url": "/Joblister/static/js/main.579640c5.chunk.js"
+    "revision": "3cf7e73ad6cbde25087f",
+    "url": "/Joblister/static/js/main.8474e7f6.chunk.js"
   },
   {
     "revision": "e324afb35d6df6c5c137",
