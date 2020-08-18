@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Joblister/static/js/main.c37874a4.chunk.js",
-    "main.js.map": "/Joblister/static/js/main.c37874a4.chunk.js.map",
+    "main.js": "/Joblister/static/js/main.579640c5.chunk.js",
+    "main.js.map": "/Joblister/static/js/main.579640c5.chunk.js.map",
     "runtime-main.js": "/Joblister/static/js/runtime-main.2ef7971e.js",
     "runtime-main.js.map": "/Joblister/static/js/runtime-main.2ef7971e.js.map",
-    "static/js/2.a7ee1178.chunk.js": "/Joblister/static/js/2.a7ee1178.chunk.js",
-    "static/js/2.a7ee1178.chunk.js.map": "/Joblister/static/js/2.a7ee1178.chunk.js.map",
+    "static/js/2.dc1a6894.chunk.js": "/Joblister/static/js/2.dc1a6894.chunk.js",
+    "static/js/2.dc1a6894.chunk.js.map": "/Joblister/static/js/2.dc1a6894.chunk.js.map",
     "index.html": "/Joblister/index.html",
-    "precache-manifest.aa5c7fcfb86875ba71dab40004483a56.js": "/Joblister/precache-manifest.aa5c7fcfb86875ba71dab40004483a56.js",
+    "precache-manifest.92bbc213064bf33cc3d415eb6a0fd9a9.js": "/Joblister/precache-manifest.92bbc213064bf33cc3d415eb6a0fd9a9.js",
     "service-worker.js": "/Joblister/service-worker.js",
-    "static/js/2.a7ee1178.chunk.js.LICENSE.txt": "/Joblister/static/js/2.a7ee1178.chunk.js.LICENSE.txt"
+    "static/js/2.dc1a6894.chunk.js.LICENSE.txt": "/Joblister/static/js/2.dc1a6894.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.2ef7971e.js",
-    "static/js/2.a7ee1178.chunk.js",
-    "static/js/main.c37874a4.chunk.js"
+    "static/js/2.dc1a6894.chunk.js",
+    "static/js/main.579640c5.chunk.js"
   ]
 }
