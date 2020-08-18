@@ -31,7 +31,7 @@ export default function Jobs() {
 		if(cjobs) {
 			let data = chunkArray(cjobs, perPage);
 			if(data.length) {
-				setJobsOnPage([...data[cPage]]);
+				setJobsOnPage([...data[0]]);
 			}
 		}
 	},[cjobs])
