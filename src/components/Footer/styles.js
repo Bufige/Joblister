@@ -6,7 +6,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-	background-color: #adb5bd;
+	background-color: #f0f0f0;
 	
     .copyrights {
 		font-size: 1.1rem;

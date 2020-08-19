@@ -11,7 +11,7 @@ export const Page = styled.div`
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
-	background-color: #b5c7c5;
+	background-color: #3a7fff;
     text-decoration: none;
     text-align: center;
     line-height: 30px;
@@ -27,9 +27,9 @@ export const Page = styled.div`
 		transform: scale(1.1);
 	}
 	cursor: pointer;
-
+	color: white;
 	&.selected {
-		background-color: #3bb33b;
-        color: white;
+		background-color: #f0f0f0;
+        color: black;
 	}
 `; 

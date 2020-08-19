@@ -12,7 +12,7 @@ export const Container = styled.table`
 
 	th, td {
   		padding: 1em;
-  		background: #ddd;
+  		background: #f0f0f0;
   		border-bottom: 2px solid white; 
 	}
 	tr { 

@@ -4,7 +4,7 @@ export const Container = styled.div`
     width: 100%;
     height: 70px;
 	margin-bottom: 30px;
-    background-color: #a0b7db;
+    background-color: #3a7fff;
 
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@ export const Container = styled.div`
     .logo {
         font-size: 2rem;
 		cursor:pointer;
+		color: #fff;
     }
 
 	outline: 0;
