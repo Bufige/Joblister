@@ -14,6 +14,10 @@ export default function Search() {
 	const [orderBy, setOrderBy] = useState(true)
 	const {jobs, cjobs, setCjobs, setJobs} = useStoreContext();
 
+
+	useEffect( () => {
+		sortBy({text: text, orderBy: orderBy});
+	}, []);
 	const sortBy = ({text = undefined, tags = [], orderBy = 0} = {}) => {
 		if (text === tags && text === orderBy && tags.length === 0) {
 			setCjobs([...jobs]);
